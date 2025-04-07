@@ -11,6 +11,8 @@ html{
 body{
     padding: 4rem;
     background: #eee;
+    font-size: 2rem;
+    font-family: sans-serif;
 }
 .dashboard{
     width: 100%;
@@ -26,15 +28,25 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    padding: 4rem;
-    align-items: center;
+    padding: 2rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
 }
 .card{
     background: #eee;
-    width: 20rem;
-    height: 16.4rem;
-    flex-grow: 1;
+    height: 50%;
+    width: 48%;
     box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);
+}
+.card--first{
+    font-size: 250%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card--second{
+    font-size: 2rem;
+
 }
 .section--second{
     grid-column: 6/13;
@@ -42,3 +54,4 @@ body{
     background: #eee;
     box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);     
 }
+
