@@ -20,11 +20,18 @@ const data = {
 
 
 const config = {
+    type: 'doughnut',
+    data: data,
+  };
+  const config3 = {
     type: 'line',
     data: data,
   };
 
+
 new Chart(document.getElementById("js--chart--1"), config);
+new Chart(document.getElementById("js--chart--3"), config3);
+
 
 
 
